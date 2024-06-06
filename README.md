@@ -1,7 +1,7 @@
 # DiscordSupportWebNote
 
 Description :
-WebNoteDiscord est un système innovant de prise de notes conçu pour les utilisateurs qui souhaitent capturer des idées et des informations facilement et rapidement, tout en ayant la possibilité de les partager instantanément sur un serveur Discord spécifié.
+DiscordWebNote est un système innovant de prise de notes conçu pour les utilisateurs qui souhaitent capturer des idées et des informations facilement et rapidement, tout en ayant la possibilité de les partager instantanément sur un serveur Discord spécifié.
 
 Fonctionnalités :
 
