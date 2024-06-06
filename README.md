@@ -1,5 +1,7 @@
 # DiscordSupportWebNote
 
+a Le weebBook faux le mettre dans le script .js
+
 Description :
 DiscordWebNote est un système innovant de prise de notes conçu pour les utilisateurs qui souhaitent capturer des idées et des informations facilement et rapidement, tout en ayant la possibilité de les partager instantanément sur un serveur Discord spécifié.
 
