@@ -1,5 +1,9 @@
 # DiscordSupportWebNote
 
+https://cdn.discordapp.com/attachments/1247212584235434004/1248393021322432584/image.png?ex=6663801a&is=66622e9a&hm=de6fa92a855bf281c3fe9a0fb21391f5fb0de2e0eacc214a16373862ea071458&
+
+https://cdn.discordapp.com/attachments/1247212584235434004/1248393021322432584/image.png?ex=6663801a&is=66622e9a&hm=de6fa92a855bf281c3fe9a0fb21391f5fb0de2e0eacc214a16373862ea071458&
+
 Description :
 DiscordWebNote est un système innovant de prise de notes conçu pour les utilisateurs qui souhaitent capturer des idées et des informations facilement et rapidement, tout en ayant la possibilité de les partager instantanément sur un serveur Discord spécifié.
 
