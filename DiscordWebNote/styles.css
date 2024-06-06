@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+button {
+    background-color: #f00;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff0000bb;
+}
+
+.form-row {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/*  Css De La " Frame " Nom Du Support */
+
+.support-name {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.support-name input[type="text"] {
+    width: 95%;
+    padding: 12px;
+    border: 2px solid #ff5252; 
+    border-radius: 8px;
+    background-color: #1f1f1f; 
+    color: #fff; 
+    font-size: 16px; 
+    outline: none; 
+    transition: border-color 0.3s ease;
+}
+
+.support-name input[type="text"]:focus {
+    border-color: #ff8a80; 
+}
+
+.support-name input[type="text"]::placeholder {
+    color: #888;
+}
+
+.support-reason {
+    flex: 1;
+    position: relative;
+}
+
+.support-reason input[type="text"] {
+    width: calc(100% - 30px); 
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #444;
+    color: #fff;
+}
+
+.support-reason-select {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px; 
+    height: 100%;
+    cursor: pointer;
+    background-color: #555; 
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.support-reason-select::after {
+    content: '\25BC'; 
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff; 
+}
+
+/*  Css De La " Frame " Saisisser Votre Note */
+
+#noteContent {
+    width: 93%;
+    height: 200px;
+    padding: 12px;
+    border: 2px solid #ff5252;
+    border-radius: 8px;
+    background-color: #1f1f1f; 
+    color: #fff; 
+    font-size: 16px; 
+    outline: none; 
+    resize: vertical; 
+    transition: border-color 0.3s ease; 
+}
+
+#noteContent:focus {
+    border-color: #ff8a80; 
+}
+
+#noteContent::placeholder {
+    color: #888; 
+}
+
+/*   */
+
+.rating {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.rating input[type="radio"] {
+    display: none;
+}
+
+.rating label {
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.rating label:before {
+    content: '\2605';
+    margin: 5px;
+    color: #777;
+}
+
+.rating input[type="radio"]:checked ~ label:before {
+    color: #f00;
+}
